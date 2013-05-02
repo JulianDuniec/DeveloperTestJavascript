@@ -14,8 +14,8 @@ module.exports = function(board){
 	me.column = function(index) {
 		var res = [];
 		var start = index;
-		var length = start + (9*9);
-		for(var i = start; i<length; i+=9) {
+		var length = start + 81;
+		for(var i = start; i<length; i += 9) {
 			res.push(board[i]);
 		}
 		return res;
@@ -23,12 +23,12 @@ module.exports = function(board){
 
 	me.block = function(index) {
 		var res = [];
-		var rowOffset = Math.floor(index/3) * 27;
-		var columnOffset = (index%3)*3;
+		var rowOffset = Math.floor( index / 3 ) * 27;
+		var columnOffset = ( index % 3 ) * 3;
 		var baseOffset = rowOffset + columnOffset;
 		for(var i = 0; i < 3; i++) {
 			for(var j = 0; j < 3; j++) {
-				var currentRowAndColumnOffset = (i*9)+j;
+				var currentRowAndColumnOffset = i * 9 + j;
 				var index = currentRowAndColumnOffset + baseOffset;
 				res.push(board[index]);
 			}
