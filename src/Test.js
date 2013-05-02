@@ -1,4 +1,4 @@
-var Soduko = require('./Soduko_Solution');
+var Soduko = require('./Soduko');
 
 /*
 	A collection of data used in the tests
