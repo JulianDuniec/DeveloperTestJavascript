@@ -1,7 +1,7 @@
-DeveloperTestJavascript
+Developer-Test for Javascript
 =======================
 
-# To run
+## To run
 `````````
  git clone git@github.com:JulianDuniec/DeveloperTestJavascript.git
  cd DeveloperTestJavascript/
@@ -9,7 +9,7 @@ DeveloperTestJavascript
  npm test
  `````````
  
-# The test
+## The test
 
 The test is to implement a class that can analyze whether a Soduko-board is solved. http://en.wikipedia.org/wiki/Sudoku  
 
