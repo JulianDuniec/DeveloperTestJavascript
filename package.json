@@ -1,0 +1,15 @@
+{
+  "author": "Julian Duniec <julian.duniec@gmail.com> (http://julianduniec.wordpress.com)",
+  "name": "DeveloperTest-Javascript",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JulianDuniec/DeveloperTestJavascript.git"
+  },
+  "scripts": {
+    "test": "nodeunit src/Test.js"
+  },
+  "dependencies": {
+    "nodeunit" : "*"
+  }
+}
