@@ -3,6 +3,8 @@ DeveloperTestJavascript
 
 # To run
 `````````
+ git clone git@github.com:JulianDuniec/DeveloperTestJavascript.git
+ cd DeveloperTestJavascript/
  npm install
  npm test
  `````````
